@@ -38,7 +38,7 @@ public class EmployeeMain {
 		System.out.println("New employee list: " + arraylist.size());
 
 		// Add object in the arraylist
-		EmployeeVerification accountE = new EmployeeVerification("Fishman", 0000, 60000);
+		EmployeeVerification accountE = new EmployeeVerification("Fishman", 0001, 60000);
 		arraylist.add(1, accountE);
 
 		System.out.println("New employee list: " + arraylist.toString());
